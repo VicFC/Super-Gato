@@ -1,6 +1,15 @@
-Videojuego en NASM + C
+# Super Gato
+Una versión modificada del juego tradicional Gato. En lugar de jugar en una sola cuadrícula de 3x3, el Super Gato se compone de 9 tableros de Gato dispuestos en una gran cuadrícula de 3x3, formando un total tablero de 9x9.
 
-Esto es, el tradicional juego de 3x3 celdas llamado Gato, pero es un Súper Gato formado por 3x3 juegos de Gato completos, es decir 9x9 celdas. En el juego tradicional de gato, gana el jugador que logre colocar 3 elementos iguales, tales como O o X, en línea vertical, horizontal o diagonal. En el súper gato, ganará el jugador que logre ganar 3 juegos de gato igualmente en línea vertical, horizontal o diagonal.
+## Detalles
+La lógica del juego esta programada en lenguaje ensamblador NASM x32 y la interfaz gráfica esta hecha en Glade GTK. 
+
+Se tienen las siguientes funcionalidades:
+- Modo Jugador vs Jugador
+- Modo Jugador vs Máquina (IA)
+    * Utiliza un algoritmo no aleatorio y que se adapta a las jugadas del jugador
+- Interfaz con Pixel Art
+
 
 > [!NOTE]
 Comandos de Compilación: 
